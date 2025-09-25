@@ -1,0 +1,7 @@
+openai
+openai-agents
+python-dotenv
+azure-identity
+azure-mgmt-resource
+requests
+aiohttp

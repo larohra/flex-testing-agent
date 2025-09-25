@@ -1,0 +1,19 @@
+{
+  "AZURE_SUBSCRIPTION_ID": "2ac40cf6-193e-4a44-a55b-d7a17bdd5aee",
+  "AZURE_REGION": "eastus",
+  "RESOURCE_GROUP_NAME": "flex-agent-test-rg",
+  "STORAGE_ACCOUNT_NAME": "flexagentstorage",
+  "FUNCTION_APP_NAME": "flex-agent-function-app",
+  "TEST_MATRIX": [
+    {
+      "TestCaseId": "FCS-03",
+      "Description": "Update Instance Memory to 2048.",
+      "Command": "az functionapp scale config set --name {AppName} --resource-group {ResourceGroup} --instance-memory 2048"
+    },
+    {
+      "TestCaseId": "FCS-04",
+      "Description": "Verify app settings after memory update.",
+      "Command": "az functionapp config show --name {AppName} --resource-group {ResourceGroup}"
+    }
+  ]
+}
