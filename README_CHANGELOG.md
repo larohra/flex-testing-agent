@@ -19,3 +19,6 @@
 - Function app names now always prefixed with `test-flex-agent-` followed by random 8-char alphanumeric suffix.
 - Storage account name randomized while preserving compliance (<=24 chars, lowercase, alphanumeric).
 - Resource group name now includes a 6-char suffix for uniqueness per run.
+
+## Agent Swarm Validation (2026-04-08)
+- This repository was used for an agent swarm validation run.
