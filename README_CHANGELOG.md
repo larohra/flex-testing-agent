@@ -1,5 +1,8 @@
 # Change Log
 
+## Agent Swarm Validation Run (2026-04-08)
+- Noted that this repository was used for an agent swarm validation run.
+
 ## CLI Best Practices Agent (2025-09-24)
 - Added `azure_function_app_best_practices_agent` which connects to the Azure MCP Function App documentation server to review Function App-related CLI commands (creation and cleanup).
 - Cleanup agent now requires the `azure_functionapp_best_practices_review` tool to approve generated `az group delete` commands before emitting the final JSON, and the same tool can be reused by other agents such as the creation workflow.
