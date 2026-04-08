@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "task-1",
+    "Title": "Add agent swarm validation note to README_CHANGELOG.md",
+    "Description": "Insert a new changelog entry near the top of README_CHANGELOG.md (after the \u0027# Change Log\u0027 heading) noting that this repository was used for an agent swarm validation run on 2026-04-08. The entry should follow the existing format (## heading with date, bullet point description). Verify the resulting file is well-formed markdown. Do not modify any other files.",
+    "BranchName": "worker/task-1",
+    "Dependencies": [],
+    "RoundNumber": 1
+  }
+]
