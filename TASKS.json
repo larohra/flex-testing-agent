@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "task-1",
+    "Title": "Add agent swarm validation note to README_CHANGELOG.md",
+    "Description": "Prepend a new dated changelog entry to README_CHANGELOG.md noting that this repository was used for an agent swarm validation run. Follow the existing format (## heading with date, bullet point description). Verify with \u0060git diff\u0060 that only README_CHANGELOG.md is modified and the change is a small, additive note.",
+    "BranchName": "worker/task-1",
+    "Dependencies": [],
+    "RoundNumber": 1
+  }
+]
